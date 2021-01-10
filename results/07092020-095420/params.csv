@@ -1,0 +1,16 @@
+M,3
+M_max,8
+events,"range(0, 3)"
+p_events,[0.33333333 0.33333333 0.33333333]
+T,"[[0 1 0 0 0]
+ [1 0 1 1 0]
+ [1 1 0 1 0]]"
+N,5
+p_succ,0.8
+n,10000
+confidence_range,"[0.7, 1.0]"
+split_ratio,0.8
+structure_array,"[5, 2]"
+epochs,10
+batch_size,30
+use_DNN,True
